@@ -47,7 +47,7 @@ function showCart() {
 function removeItemFromCart(event) {
 
   // TODO: When a delete link is clicked, use cart.removeItem to remove the correct item
-  
+  cart.removeItem ();
   // TODO: Save the cart back to local storage
   var dataString=JSON.stringify(this.items);
   localStorage.setItem('allItem',dataString);
